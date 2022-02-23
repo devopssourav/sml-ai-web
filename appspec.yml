@@ -3,7 +3,8 @@ os: windows
 files:
   - source: index.html
     destination: c:\inetpub\wwwroot 
-hooks:
-  BeforeInstall:
-    - location: \before-install.bat
-      timeout: 120
+file_exists_behavior: OVERWRITE    
+# hooks:
+#   BeforeInstall:
+#     - location: \before-install.bat
+#       timeout: 120
