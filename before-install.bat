@@ -1,0 +1,1 @@
+del "C:\inetpub\wwwroot\index.html"
